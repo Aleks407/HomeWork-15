@@ -1,7 +1,7 @@
 import java.util.Objects;
 
 public class Transport implements TransportCheck {
-    private  final String modelName;
+    private final String modelName;
     private final int wheelsCount;
 
     public Transport(String modelName, int wheelsCount) {
@@ -23,6 +23,7 @@ public class Transport implements TransportCheck {
                 "modelName='" + modelName + '\'' +
                 ", wheelsCount=" + wheelsCount;
     }
+
 
     @Override
     public boolean equals(Object o) {

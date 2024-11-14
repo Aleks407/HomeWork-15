@@ -19,6 +19,7 @@ public interface TransportCheck {
             for (int i = 0; i < transport.getWheelsCount(); i++) {
                 transport.updateTyre();
 
+
             }
         }
     }

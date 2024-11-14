@@ -4,6 +4,7 @@ public class PrintServiceStation {
             TransportCheck.checkTransport(transport[i]);
             System.out.println();
 
+
         }
     }
 }

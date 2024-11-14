@@ -25,7 +25,6 @@ public class Main {
 
             transport[i + car.length + truck.length] = bicycle[i];
         }
-        //System.out.println(Arrays.toString(transport));
 
         PrintServiceStation station = new PrintServiceStation();
         station.check(transport);
